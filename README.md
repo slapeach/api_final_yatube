@@ -22,17 +22,30 @@ git clone https://github.com/slapeach/api_final_yatube.git
 cd api_final_yatube
 ```
 
-Cоздать и активировать виртуальное окружение:
+Cоздать виртуальное окружение:
 ```
-python3 -m venv env (на Windows: python -m venv venv)
+python3 -m venv env
 ```
+На Windows:
 ```
-source env/bin/activate (на Windows: source venv/Scripts/activate)
+python -m venv venv
+```
+Активировать виртуальное окружение:
+```
+source env/bin/activate
+```
+На Windows:
+```
+source venv/Scripts/activate
 ```
 
 Установить зависимости из файла requirements.txt:
 ```
-python3 -m pip install --upgrade pip (на Windows: python -m pip install --upgrade pip)
+python3 -m pip install --upgrade pip
+```
+На Windows:
+```
+python -m pip install --upgrade pip
 ```
 ```
 pip install -r requirements.txt
@@ -40,12 +53,20 @@ pip install -r requirements.txt
 
 Выполнить миграции:
 ```
-python3 manage.py migrate (на Windows: python manage.py migrate)
+python3 manage.py migrate
+```
+На Windows:
+```
+python manage.py migrate
 ```
 
 Запустить проект:
 ```
-python3 manage.py runserver (на Windows: python manage.py runserver)
+python3 manage.py runserver
+```
+На Windows:
+```
+python manage.py runserver
 ```
 
 
